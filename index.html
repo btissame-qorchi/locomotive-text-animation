@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll animation</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/locomotive.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+
+    <main data-scroll-container class="data-scrolling">
+    <section class="top">
+        <h1>scroll to discover awesome animations !</h1>
+    </section>
+    <section class="animation1">
+        <h2 data-scroll data-scroll-class="fill_text" data-scroll-repeat="true">stroke text <br>animation with css</h2>
+    </section>
+    <section class="animation2">
+        <h2 data-scroll data-scroll-class="typing_anim" data-scroll-repeat="true">
+            Typing animation with css
+        </h2>
+    </section>
+    <section class="animation3">
+        <p data-scroll data-scroll-class="fade_text" data-scroll-repeat="true">
+            <span>Duis</span>
+            <span>autem</span>
+            <span>vel</span>
+            <span>eum</span> 
+            <span>iriure</span>
+            <span>dolor</span> 
+            <span>in</span> 
+            <span>hendrerit</span>
+            <span>in</span>
+            <span>vulputate</span>
+            <span>velit</span>
+            <span>esse</span>
+            <span>molestie</span>
+            <span>consequat,</span>
+            <span>vel</span>
+            <span>illum</span>
+            <span>dolore</span>
+            <span>eu</span>
+            <span>feugiat</span>
+            <span>nulla</span>
+            <span>facilisis.</span>
+        </p>
+    </section>
+    <section class="animation4">
+        <h2 data-scroll data-scroll-class="water_anim" data-scroll-repeat="true">Fin !</h2>
+    </section>
+</main>
+<body>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
